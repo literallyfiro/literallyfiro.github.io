@@ -1,8 +1,12 @@
 body {
     background-color: rgb(10, 10, 10);
-    height: 100vh;
+    height: 100%;
     margin: 0rem;
     overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 @keyframes rotate {
